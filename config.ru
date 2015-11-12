@@ -4,4 +4,4 @@ require 'sinatra/base'
 Dir.glob('./app/**/*.rb').each { |file| require file }
 
 # map the controllers to routes
-# map('/'){ run HelloController }
+map('/'){ run HelloController }
